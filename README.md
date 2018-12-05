@@ -13,13 +13,17 @@ Respresso currently supports five types of resources:
 
 # Installation
 You can install Respresso with Homebrew using the following command:  
-```$ brew install respresso```
+```bash
+$ brew install respresso
+```
 
 # Usage
 Using Respresso should be intuitive to anyone who has used Cocoapods before.
 Configurations are stored in the respressofile, while your current assets’ metadata are stored in respressofile.lock.
 Navigate to your project folder in Terminal, and type   
-```$ respresso init```  
+```bash
+$ respresso init
+```  
 to initialize a new Respressofile.
 
 ![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)  
@@ -27,7 +31,9 @@ to initialize a new Respressofile.
 
 
 Once you have configured your Respressofile, type  
-```$ respresso update```  
+```bash
+$ respresso update
+```  
 to import all requested resources into your project.
 
 ## Breakdown of the respressofile
@@ -55,7 +61,9 @@ By omitting this argument Respresso will use its default host URL for syncing.
 
 ## Available Commands
 Open terminal and navigate to your project folder. Use any of the commands below by typing  
-```$ respresso [command]```
+```bash
+$ respresso [command]
+```
 
 ##### Init
 Initializes a new Respressofile with an empty project token and a resource line commented out.
@@ -75,7 +83,9 @@ Removes your lock file and all assets associated with Respresso.
 
 
 Enabling strict mode will guarantee you get the same results each time you sync your assets. If set to true, you may only specify exact version numbers in your Respressofile. This option is set to false by default. Usage example:  
-```$ respresso update -strict-mode```
+```bash
+$ respresso update -strict-mode
+```
 
 # Licence
 ```
