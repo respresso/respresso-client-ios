@@ -19,15 +19,15 @@ You can install Respresso with Homebrew using the following command:
 Using Respresso should be intuitive to anyone who has used Cocoapods before.
 Configurations are stored in the respressofile, while your current assets’ metadata are stored in respressofile.lock.
 Navigate to your project folder in Terminal, and type   
-```$ respresso init```
+```$ respresso init```  
 to initialize a new Respressofile.
 
-![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)
+![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)  
 *Respressofile with custom host requesting four ot ouf five resource categories*
 
 
 Once you have configured your Respressofile, type  
-```$ respresso update```
+```$ respresso update```  
 to import all requested resources into your project.
 
 ## Breakdown of the respressofile
