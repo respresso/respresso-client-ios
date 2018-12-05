@@ -12,20 +12,21 @@ Respresso currently supports five types of resources:
 * Colors
 
 # Installation
-You can install Respresso with Homebrew using the following command:
+You can install Respresso with Homebrew using the following command:  
 ```$ brew install respresso```
 
 # Usage
 Using Respresso should be intuitive to anyone who has used Cocoapods before.
 Configurations are stored in the respressofile, while your current assets’ metadata are stored in respressofile.lock.
-Navigate to your project folder in Terminal, and type 
+Navigate to your project folder in Terminal, and type   
 ```$ respresso init```
 to initialize a new Respressofile.
 
 ![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)
+*Respressofile with custom host requesting four ot ouf five resource categories*
 
 
-Once you have configured your Respressofile, type
+Once you have configured your Respressofile, type  
 ```$ respresso update```
 to import all requested resources into your project.
 
@@ -53,7 +54,7 @@ Specify the host of your assets in the first line by writing ‘host’ and your
 By omitting this argument Respresso will use its default host URL for syncing.
 
 ## Available Commands
-Open terminal and navigate to your project folder. Use any of the commands below by typing
+Open terminal and navigate to your project folder. Use any of the commands below by typing  
 ```$ respresso [command]```
 
 ##### Init
@@ -73,5 +74,5 @@ Removes your lock file and all assets associated with Respresso.
 ###### strict-mode
 
 
-Enabling strict mode will guarantee you get the same results each time you sync your assets. If set to true, you may only specify exact version numbers in your Respressofile. This option is set to false by default. Usage example:
+Enabling strict mode will guarantee you get the same results each time you sync your assets. If set to true, you may only specify exact version numbers in your Respressofile. This option is set to false by default. Usage example:  
 ```$ respresso update -strict-mode```
