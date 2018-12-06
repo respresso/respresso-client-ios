@@ -12,10 +12,7 @@ Respresso currently supports five types of resources:
 * Colors
 
 # Installation
-You can install Respresso with Homebrew using the following command:  
-```bash
-$ brew install respresso
-```
+[Download the latest release](https://github.com/pontehu/respresso-client-ios/releases)
 
 # Usage
 Using Respresso should be intuitive to anyone who has used Cocoapods before.
