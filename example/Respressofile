@@ -1,0 +1,7 @@
+project_token 'e989c186-4884-493f-8c00-870bc2e7add2'
+
+resource 'localization',	'1.0+'
+resource 'image',			'1.0+'
+resource 'font',			'1.0+'
+resource 'color',			'1.0+'
+resource 'appIcon',			'1.0+'
