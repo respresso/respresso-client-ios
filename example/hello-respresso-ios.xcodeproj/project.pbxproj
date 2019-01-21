@@ -249,7 +249,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Respresso/Respresso/respresso-frameworks.sh\"";
+			shellScript = "\"${SRCROOT}/Respresso/Respresso/respresso-frameworks.sh\"\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
