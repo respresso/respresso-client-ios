@@ -26,8 +26,9 @@ to initialize a new Respressofile.
 ![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)  
 *Respressofile with custom host requesting four ot ouf five resource categories*
 
+>  ⚠️ Before performing the next step, be sure to **close your Xcode project**.  
 
-Once you have configured your Respressofile, type  
+Configure your Respressofile as explained by the next section, then type  
 ```bash
 $ respresso update
 ```  
