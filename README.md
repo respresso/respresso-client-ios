@@ -1,4 +1,4 @@
-# Introduction 
+ # Introduction 
 
 
 Respresso is a centralized resource manager for shared Android and iOS projects.
@@ -83,6 +83,62 @@ Enabling strict mode will guarantee you get the same results each time you sync 
 ```bash
 $ respresso update -strict-mode
 ```
+
+# Live localization
+
+Real-time preview how the translations will look like in your mobile app or web. No need to wait for the next deployment.
+
+### How to setting up
+
+1. Import 'RespressoLive' framework. It's automatically added to your project.
+2. Enable the live mode.
+
+```
+import RespressoLive
+
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+       
+        RespressoLocalizationLiveEdit.shared.liveLocalizationEnabled = true
+        
+        return true
+    }
+}
+```
+
+3. Use 'RespressoStrings' for localization
+4. Observe for 'RespressoDidUpdateLocalization' notification.
+
+```
+import Respresso
+
+class ViewController: UIViewController {
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.updateTexts()
+        
+        NotificationCenter.default.addObserver(forName: NSNotification.Name.RespressoDidUpdateLocalization, object: nil, queue: nil) { [weak self] (notification) in
+            self?.updateTexts()
+        }
+    }
+    
+    func updateTexts() {
+        label.text = RespressoStrings.hello
+    }
+}
+
+```
+
+### How to use it
+
+1. Go to your project's localization editor on https://respresso.io
+2. Click  to 'Live Edit' button and follow the instructions.
+
+
 
 # Licence
 ```
