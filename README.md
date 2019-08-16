@@ -26,8 +26,9 @@ to initialize a new Respressofile.
 ![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)  
 *Respressofile with custom host requesting four ot ouf five resource categories*
 
+⚠️ Before performing the next step, be sure to **close your Xcode project**.  
 
-Once you have configured your Respressofile, type  
+Configure your Respressofile as explained by the next section, then type  
 ```bash
 $ respresso update
 ```  
@@ -142,7 +143,7 @@ class ViewController: UIViewController {
 
 # Licence
 ```
-Copyright 2018 Ponte.hu Kft
+Copyright 2019 Ponte.hu Kft
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
