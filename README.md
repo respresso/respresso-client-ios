@@ -1,7 +1,7 @@
  # Introduction 
 
 
-Respresso is a centralized resource manager for shared Android and iOS projects.
+Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [web](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
 It allows you to simply import the latest assets into your workspace.
 You may store several versions of the same resource in the cloud and pick the ones you need to import.
 Respresso currently supports five types of resources:
@@ -139,7 +139,7 @@ class ViewController: UIViewController {
 
 1. Check above instructions
 2. Go to respresso(https://app.respresso.io) sign in and choose a project
-3. Select localization in the left panel and click the same version that you synked into your project 
+3. Select localization in the left panel and click the same version that you synced into your project 
 4. Get your phone and shake it
 5. Switch on 'Localization / Connection' in the popup window
 > Now your modifications are going to appearance when you click the 'Save' button on the web
