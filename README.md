@@ -46,6 +46,7 @@ The currently accepted resource names are:
 * color
 * localization
 * font
+* raw
         
 Accepted version formats are:
 * [major].[minor].[patch]         eg. 1.2.0
