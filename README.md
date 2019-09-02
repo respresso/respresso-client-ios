@@ -10,6 +10,7 @@ Respresso currently supports five types of resources:
 * Localization
 * Fonts
 * Colors
+* Raw
 
 # Installation
 [Download the latest release](https://github.com/pontehu/respresso-client-ios/releases)
@@ -136,8 +137,19 @@ class ViewController: UIViewController {
 
 ### How to use it
 
-1. Go to your project's localization editor on https://respresso.io
-2. Click  to 'Live Edit' button and follow the instructions.
+1. Check above instructions
+2. Go to respresso(https://app.respresso.io) sign in and choose a project
+3. Select localization in the left panel and click the same version that you synked into your project 
+4. Get your phone and shake it
+5. Switch on 'Localization / Connection' in the popup window
+> Now your modifications are going to appearance when you click the 'Save' button on the web
+6. For using Live Edit Module* shake your phone again and switch on 'Localization / Live Editor' in the popup window
+7. On web click on the 'Live Editor' button on the top right area
+8. Scan the QR Code with your phone which visible in your web browser's top right section
+
+Let see what happened after 7th option. You activated a visible items filter and your list have less elements than before and don't have to use Save button to get updated texts. Be careful, this modification stored just in your phone's memory and you can lose it. Use the Save button to store your modifications. 
+
+* Live Edit Module: shows real-time preview how the translations will look like in your mobile app. Check the translations’ accuracy, length and the UI experience in real-time.
 
 
 
