@@ -153,7 +153,6 @@ Let see what happened after 7th option. You activated a visible items filter and
 \* Live Edit Module: shows real-time preview how the translations will look like in your mobile app. Check the translations’ accuracy, length and the UI experience in real-time.
 
 
-
 # Licence
 ```
 Copyright 2019 Ponte.hu Kft
