@@ -1,7 +1,10 @@
-project_token 'e989c186-4884-493f-8c00-870bc2e7add2'
+host 'https://app.respresso.io'
+
+project_token 'a974c2a6-c735-403d-82df-773008bd65c6'
 
 resource 'localization',	'1.0+'
-resource 'image',			'1.0+'
-resource 'font',			'1.0+'
-resource 'color',			'1.0+'
-resource 'appIcon',			'1.0+'
+resource 'image',	'1.0+'
+resource 'font',	'1.0+'
+resource 'color',	'1.0+'
+resource 'appIcon',	'1.0+'
+resource 'raw',	'1.0+'

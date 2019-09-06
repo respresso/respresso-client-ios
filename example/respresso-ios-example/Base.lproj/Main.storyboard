@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="respresso_ios_example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qXH-pH-Tv7">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7J8-Ml-Sr4">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="624.5"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fIz-7T-FKA" customClass="GradientView" customModule="respresso_ios_example" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="demo_logo" translatesAutoresizingMaskIntoConstraints="NO" id="Efn-Xg-i8w">
+                                                        <rect key="frame" x="25" y="63" width="160" height="50"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcA-d0-4Ww">
+                                                        <rect key="frame" x="25" y="153" width="364" height="30.5"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="26"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.26918220576830088" green="0.63029807342234367" blue="0.80772128807106602" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstItem="CcA-d0-4Ww" firstAttribute="top" secondItem="Efn-Xg-i8w" secondAttribute="bottom" constant="40" id="7rH-hd-Iwn"/>
+                                                    <constraint firstItem="Efn-Xg-i8w" firstAttribute="leading" secondItem="fIz-7T-FKA" secondAttribute="leading" constant="25" id="KLU-mJ-pDq"/>
+                                                    <constraint firstItem="Efn-Xg-i8w" firstAttribute="top" secondItem="fIz-7T-FKA" secondAttribute="top" constant="63" id="Yvf-Ob-51I"/>
+                                                    <constraint firstItem="CcA-d0-4Ww" firstAttribute="centerX" secondItem="fIz-7T-FKA" secondAttribute="centerX" id="jcH-EA-ToD"/>
+                                                    <constraint firstItem="CcA-d0-4Ww" firstAttribute="leading" secondItem="fIz-7T-FKA" secondAttribute="leading" constant="25" id="l54-k4-i9t"/>
+                                                    <constraint firstAttribute="height" constant="450" id="u5W-Lf-wZy"/>
+                                                </constraints>
+                                            </view>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="demo_image_mobil" translatesAutoresizingMaskIntoConstraints="NO" id="fac-e1-v7E">
+                                                <rect key="frame" x="72" y="223.5" width="220" height="251"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAR-eg-vCW" customClass="DesignButton" customModule="respresso_ios_example" customModuleProvider="target">
+                                                <rect key="frame" x="184" y="544.5" width="46" height="30"/>
+                                                <color key="backgroundColor" red="0.34727677091716103" green="0.6509557423857868" blue="0.39832015346321958" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="fac-e1-v7E" firstAttribute="centerX" secondItem="fIz-7T-FKA" secondAttribute="centerX" constant="-25" id="4c7-TH-nbr"/>
+                                            <constraint firstAttribute="trailing" secondItem="fIz-7T-FKA" secondAttribute="trailing" id="A5b-29-iFj"/>
+                                            <constraint firstItem="iAR-eg-vCW" firstAttribute="centerX" secondItem="7J8-Ml-Sr4" secondAttribute="centerX" id="E5P-N1-FWe"/>
+                                            <constraint firstItem="fac-e1-v7E" firstAttribute="top" secondItem="CcA-d0-4Ww" secondAttribute="bottom" constant="40" id="MNM-PB-2I0"/>
+                                            <constraint firstItem="iAR-eg-vCW" firstAttribute="top" secondItem="fac-e1-v7E" secondAttribute="bottom" constant="70" id="ZTA-LO-uc4"/>
+                                            <constraint firstItem="fIz-7T-FKA" firstAttribute="top" secondItem="7J8-Ml-Sr4" secondAttribute="top" id="o1r-eA-FE0"/>
+                                            <constraint firstItem="fIz-7T-FKA" firstAttribute="leading" secondItem="7J8-Ml-Sr4" secondAttribute="leading" id="utw-ws-pWi"/>
+                                            <constraint firstAttribute="bottom" secondItem="iAR-eg-vCW" secondAttribute="bottom" constant="50" id="zAZ-4u-Qm3"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="7J8-Ml-Sr4" secondAttribute="bottom" id="XgC-co-V82"/>
+                                    <constraint firstItem="7J8-Ml-Sr4" firstAttribute="top" secondItem="qXH-pH-Tv7" secondAttribute="top" id="h3T-kP-0rX"/>
+                                    <constraint firstItem="7J8-Ml-Sr4" firstAttribute="leading" secondItem="qXH-pH-Tv7" secondAttribute="leading" id="hOx-Q4-J4B"/>
+                                    <constraint firstAttribute="trailing" secondItem="7J8-Ml-Sr4" secondAttribute="trailing" id="pDr-vB-Pde"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qXH-pH-Tv7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="2uH-Kp-2V6"/>
+                            <constraint firstItem="qXH-pH-Tv7" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Eq4-v2-8gF"/>
+                            <constraint firstItem="7J8-Ml-Sr4" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" priority="200" id="hla-Ac-STT"/>
+                            <constraint firstAttribute="bottom" secondItem="qXH-pH-Tv7" secondAttribute="bottom" id="lfI-Ee-jM5"/>
+                            <constraint firstItem="qXH-pH-Tv7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="oQp-9Y-7st"/>
+                            <constraint firstItem="7J8-Ml-Sr4" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="zbz-Vr-LOy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="abstractLabel" destination="CcA-d0-4Ww" id="fWm-Us-2tn"/>
+                        <outlet property="checkItNowButton" destination="iAR-eg-vCW" id="zwg-o3-tPc"/>
+                        <outlet property="gradientView" destination="fIz-7T-FKA" id="Ay6-uy-aaS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="demo_image_mobil" width="220" height="251"/>
+        <image name="demo_logo" width="160" height="50"/>
+    </resources>
+</document>

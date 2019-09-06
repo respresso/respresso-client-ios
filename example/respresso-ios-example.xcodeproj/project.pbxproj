@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E1DBD5A2317EAB700E9A690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1DBD592317EAB700E9A690 /* AppDelegate.swift */; };
+		7E1DBD5C2317EAB700E9A690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1DBD5B2317EAB700E9A690 /* ViewController.swift */; };
+		7E1DBD5F2317EAB700E9A690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DBD5D2317EAB700E9A690 /* Main.storyboard */; };
+		7E1DBD612317EABA00E9A690 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DBD602317EABA00E9A690 /* Assets.xcassets */; };
+		7E1DBD642317EABA00E9A690 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1DBD622317EABA00E9A690 /* LaunchScreen.storyboard */; };
+		7E1DBD6F2317EABA00E9A690 /* respresso_ios_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1DBD6E2317EABA00E9A690 /* respresso_ios_exampleTests.swift */; };
+		7E1DBD7A2317EB2400E9A690 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E1DBD792317EB2400E9A690 /* GradientView.swift */; };
+		7E6F289E231D321400DF7226 /* (null) in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_348437373085; };
+		7E6F28A3231D3D7C00DF7226 /* DesignButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F28A2231D3D7C00DF7226 /* DesignButton.swift */; };
+		BF_308184942375 /* (null) in Frameworks */ = {isa = PBXBuildFile; fileRef = FR_308184942375; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E1DBD6B2317EABA00E9A690 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E1DBD4E2317EAB700E9A690 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E1DBD552317EAB700E9A690;
+			remoteInfo = "respresso-ios-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E1DBD562317EAB700E9A690 /* respresso-ios-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "respresso-ios-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1DBD592317EAB700E9A690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E1DBD5B2317EAB700E9A690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E1DBD5E2317EAB700E9A690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E1DBD602317EABA00E9A690 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E1DBD632317EABA00E9A690 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E1DBD652317EABA00E9A690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1DBD6A2317EABA00E9A690 /* respresso-ios-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "respresso-ios-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1DBD6E2317EABA00E9A690 /* respresso_ios_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = respresso_ios_exampleTests.swift; sourceTree = "<group>"; };
+		7E1DBD702317EABA00E9A690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E1DBD792317EB2400E9A690 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		7E6F28A2231D3D7C00DF7226 /* DesignButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1DBD532317EAB700E9A690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF_308184942375 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1DBD672317EABA00E9A690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E6F289E231D321400DF7226 /* (null) in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E1DBD4D2317EAB700E9A690 = {
+			isa = PBXGroup;
+			children = (
+				7E1DBD582317EAB700E9A690 /* respresso-ios-example */,
+				7E1DBD6D2317EABA00E9A690 /* respresso-ios-exampleTests */,
+				7E1DBD572317EAB700E9A690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E1DBD572317EAB700E9A690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DBD562317EAB700E9A690 /* respresso-ios-example.app */,
+				7E1DBD6A2317EABA00E9A690 /* respresso-ios-exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E1DBD582317EAB700E9A690 /* respresso-ios-example */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DBD592317EAB700E9A690 /* AppDelegate.swift */,
+				7E1DBD5B2317EAB700E9A690 /* ViewController.swift */,
+				7E1DBD792317EB2400E9A690 /* GradientView.swift */,
+				7E6F28A2231D3D7C00DF7226 /* DesignButton.swift */,
+				7E1DBD5D2317EAB700E9A690 /* Main.storyboard */,
+				7E1DBD602317EABA00E9A690 /* Assets.xcassets */,
+				7E1DBD622317EABA00E9A690 /* LaunchScreen.storyboard */,
+				7E1DBD652317EABA00E9A690 /* Info.plist */,
+				G_4794226077884 /* Frameworks */,
+			);
+			path = "respresso-ios-example";
+			sourceTree = "<group>";
+		};
+		7E1DBD6D2317EABA00E9A690 /* respresso-ios-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E1DBD6E2317EABA00E9A690 /* respresso_ios_exampleTests.swift */,
+				7E1DBD702317EABA00E9A690 /* Info.plist */,
+			);
+			path = "respresso-ios-exampleTests";
+			sourceTree = "<group>";
+		};
+		G_4794226077884 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E1DBD552317EAB700E9A690 /* respresso-ios-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1DBD732317EABA00E9A690 /* Build configuration list for PBXNativeTarget "respresso-ios-example" */;
+			buildPhases = (
+				7E1DBD522317EAB700E9A690 /* Sources */,
+				7E1DBD532317EAB700E9A690 /* Frameworks */,
+				7E1DBD542317EAB700E9A690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "respresso-ios-example";
+			productName = "respresso-ios-example";
+			productReference = 7E1DBD562317EAB700E9A690 /* respresso-ios-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E1DBD692317EABA00E9A690 /* respresso-ios-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E1DBD762317EABA00E9A690 /* Build configuration list for PBXNativeTarget "respresso-ios-exampleTests" */;
+			buildPhases = (
+				7E1DBD662317EABA00E9A690 /* Sources */,
+				7E1DBD672317EABA00E9A690 /* Frameworks */,
+				7E1DBD682317EABA00E9A690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E1DBD6C2317EABA00E9A690 /* PBXTargetDependency */,
+			);
+			name = "respresso-ios-exampleTests";
+			productName = "respresso-ios-exampleTests";
+			productReference = 7E1DBD6A2317EABA00E9A690 /* respresso-ios-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E1DBD4E2317EAB700E9A690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "ponte Kft.";
+				TargetAttributes = {
+					7E1DBD552317EAB700E9A690 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					7E1DBD692317EABA00E9A690 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 7E1DBD552317EAB700E9A690;
+					};
+				};
+			};
+			buildConfigurationList = 7E1DBD512317EAB700E9A690 /* Build configuration list for PBXProject "respresso-ios-example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E1DBD4D2317EAB700E9A690;
+			productRefGroup = 7E1DBD572317EAB700E9A690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E1DBD552317EAB700E9A690 /* respresso-ios-example */,
+				7E1DBD692317EABA00E9A690 /* respresso-ios-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E1DBD542317EAB700E9A690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1DBD642317EABA00E9A690 /* LaunchScreen.storyboard in Resources */,
+				7E1DBD612317EABA00E9A690 /* Assets.xcassets in Resources */,
+				7E1DBD5F2317EAB700E9A690 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1DBD682317EABA00E9A690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E1DBD522317EAB700E9A690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1DBD5C2317EAB700E9A690 /* ViewController.swift in Sources */,
+				7E1DBD5A2317EAB700E9A690 /* AppDelegate.swift in Sources */,
+				7E1DBD7A2317EB2400E9A690 /* GradientView.swift in Sources */,
+				7E6F28A3231D3D7C00DF7226 /* DesignButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E1DBD662317EABA00E9A690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E1DBD6F2317EABA00E9A690 /* respresso_ios_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E1DBD6C2317EABA00E9A690 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E1DBD552317EAB700E9A690 /* respresso-ios-example */;
+			targetProxy = 7E1DBD6B2317EABA00E9A690 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E1DBD5D2317EAB700E9A690 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1DBD5E2317EAB700E9A690 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E1DBD622317EABA00E9A690 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E1DBD632317EABA00E9A690 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E1DBD712317EABA00E9A690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E1DBD722317EABA00E9A690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E1DBD742317EABA00E9A690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549JH3Z6R6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "respresso-ios-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.ponte.respresso-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7E1DBD752317EABA00E9A690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549JH3Z6R6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "respresso-ios-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.ponte.respresso-ios-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7E1DBD772317EABA00E9A690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549JH3Z6R6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "respresso-ios-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.ponte.respresso-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/respresso-ios-example.app/respresso-ios-example";
+			};
+			name = Debug;
+		};
+		7E1DBD782317EABA00E9A690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 549JH3Z6R6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "respresso-ios-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hu.ponte.respresso-ios-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/respresso-ios-example.app/respresso-ios-example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E1DBD512317EAB700E9A690 /* Build configuration list for PBXProject "respresso-ios-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1DBD712317EABA00E9A690 /* Debug */,
+				7E1DBD722317EABA00E9A690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1DBD732317EABA00E9A690 /* Build configuration list for PBXNativeTarget "respresso-ios-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1DBD742317EABA00E9A690 /* Debug */,
+				7E1DBD752317EABA00E9A690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E1DBD762317EABA00E9A690 /* Build configuration list for PBXNativeTarget "respresso-ios-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E1DBD772317EABA00E9A690 /* Debug */,
+				7E1DBD782317EABA00E9A690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E1DBD4E2317EAB700E9A690 /* Project object */;
+}
