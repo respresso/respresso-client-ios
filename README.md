@@ -1,7 +1,7 @@
  # Introduction 
 
 
-Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [web](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
+Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [Web frontend](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
 It allows you to simply import the latest assets into your workspace.
 You may store several versions of the same resource in the cloud and pick the ones you need to import.
 Respresso currently supports five types of resources:
