@@ -1,4 +1,4 @@
- # [Respresso](https://respresso.io) iOS client Introduction  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Respresso%20handles%20your%20digital%20assets%20so%20you%20don%E2%80%99t%20have%20to&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation) 
+ # Introduction  [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Respresso%20handles%20your%20digital%20assets%20so%20you%20don%E2%80%99t%20have%20to&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation) 
 
 
 Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [Web frontend](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
