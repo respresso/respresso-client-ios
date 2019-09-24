@@ -18,6 +18,9 @@ Respresso currently supports six types of resources:
 
 - [Installation](#installation)
 - [Usage](#usage)
+        - [Breakdown of the respressofile](#breakdown-of-the-respressofile)
+        - [Optional arguments](#optional-arguments)
+        - [Available Commands](#available-commands)
 - [Live localization](#live-localization)  
 
 ## Installation 
