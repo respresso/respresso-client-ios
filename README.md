@@ -1,6 +1,6 @@
 [<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.jpg" height="220" /></div>](https://respresso.io)  
 
-# Introduction [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
+# Respresso iOS client [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
 [![GitHub version](https://badge.fury.io/gh/pontehu%2Frespresso-client-ios.svg)](https://badge.fury.io/gh/pontehu%2Frespresso-client-ios)  
 
 Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [Web frontend](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
@@ -14,10 +14,16 @@ Respresso currently supports six types of resources:
 * Colors
 * Raw
 
-# Installation
+## Table of contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Live localization](#live-localization)  
+
+## Installation 
 [Download the latest release](https://github.com/pontehu/respresso-client-ios/releases)
 
-# Usage
+## Usage
 Using Respresso should be intuitive to anyone who has used Cocoapods before.
 Configurations are stored in the respressofile, while your current assets’ metadata are stored in respressofile.lock.
 Navigate to your project folder in Terminal, and type   
@@ -37,7 +43,7 @@ $ respresso update
 ```  
 to import all requested resources into your project.
 
-## Breakdown of the respressofile
+### Breakdown of the respressofile
 * Include the project token received during initialization of your project in the Respresso web interface. This is done in the same manner as the host with the keyword ‘project_token’ and your token inside single quotation marks
 * Specify the required resources in the next line using the following format:
 resource ‘[resource_name]’, ‘[version_number]’
@@ -56,32 +62,32 @@ Accepted version formats are:
 * [major].[minor]+                eg. 1.2+ (not available in strict mode)
 
 
-### Optional arguments
+#### Optional arguments
 ###### host
 Specify the host of your assets in the first line by writing ‘host’ and your URL in single quotation marks separated by a space.
 By omitting this argument Respresso will use its default host URL for syncing.
 
-## Available Commands
+### Available Commands
 Open terminal and navigate to your project folder. Use any of the commands below by typing  
 ```bash
 $ respresso [command]
 ```
 
-##### Init
+###### Init
 Initializes a new Respressofile with an empty project token and a resource line commented out.
 
-##### Install
+###### Install
 Executes a Clean and an Update command sequentially.
 
-##### Update
+###### Update
 Downloads resources specified in your Respressofile from the server. Your current assets described in your Respressofile.lock are checked against the server’s state.
 If ran for the first time, a new project with your assets and a new workspace containing both projects are created.
 
-##### Clean
+###### Clean
 Removes your lock file and all assets associated with Respresso.
 
-##### Options
-###### strict-mode
+###### Options
+**strict-mode**
 
 
 Enabling strict mode will guarantee you get the same results each time you sync your assets. If set to true, you may only specify exact version numbers in your Respressofile. This option is set to false by default. Usage example:  
@@ -89,11 +95,11 @@ Enabling strict mode will guarantee you get the same results each time you sync 
 $ respresso update -strict-mode
 ```
 
-# Live localization
+## Live localization
 
 Real-time preview how the translations will look like in your mobile app or web. No need to wait for the next deployment.
 
-### How to setting up
+#### How to setting up
 
 1. Import 'RespressoLive' framework. It's automatically added to your project.
 2. Enable the live mode.
@@ -138,7 +144,7 @@ class ViewController: UIViewController {
 
 ```
 
-### How to use it
+#### How to use it
 
 1. Check above instructions
 2. Go to respresso(https://app.respresso.io) sign in and choose a project
@@ -155,7 +161,7 @@ Let see what happened after 7th option. You activated a visible items filter and
 \* Live Edit Module: shows real-time preview how the translations will look like in your mobile app. Check the translations’ accuracy, length and the UI experience in real-time.
 
 
-# Licence
+## Licence
 ```
 Copyright 2019 Ponte.hu Kft
 
