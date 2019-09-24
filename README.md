@@ -1,4 +1,4 @@
-[<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.png?raw=true" /></div>](https://respresso.io)  
+[<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.png" /></div>](https://respresso.io)  
 
 
 
