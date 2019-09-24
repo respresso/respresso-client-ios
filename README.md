@@ -1,9 +1,9 @@
-[<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.jpg" height="220" /></div>](https://respresso.io)  
+[<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.png" height="220" /></div>](https://respresso.io)  
 
 # Respresso iOS client [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
 [![GitHub version](https://badge.fury.io/gh/pontehu%2Frespresso-client-ios.svg)](https://badge.fury.io/gh/pontehu%2Frespresso-client-ios)  
 
-Respresso is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [Web frontend](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
+[Respresso](https://respresso.io) is a centralized resource manager for shared [Android](https://github.com/pontehu/respresso-client-android), iOS and [Web frontend](https://github.com/pontehu/respresso-sync-for-clients#web) projects.
 It allows you to simply import the latest assets into your workspace.
 You may store several versions of the same resource in the cloud and pick the ones you need to import.
 Respresso currently supports six types of resources:
