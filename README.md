@@ -163,20 +163,3 @@ Let see what happened after 7th option. You activated a visible items filter and
 
 \* Live Edit Module: shows real-time preview how the translations will look like in your mobile app. Check the translations’ accuracy, length and the UI experience in real-time.
 
-
-## Licence
-```
-Copyright 2019 Ponte.hu Kft
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
