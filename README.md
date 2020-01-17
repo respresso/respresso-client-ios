@@ -33,8 +33,18 @@ Navigate to your project folder in Terminal, and type
 $ respresso init
 ```  
 to initialize a new Respressofile.
+```
+host 'https://app.respresso.io'
 
-![Respressofile with custom host requesting four ot ouf five resource categories](/images/respressofile.png)  
+project_token 'YOUR-PROJECT-TOKEN'
+
+resource 'localization',	'1.0+'
+resource 'image',		'1.0+'
+resource 'font',		'1.0+'
+resource 'color',		'1.0+'
+resource 'appIcon',		'1.0+'
+resource 'raw',			'1.0+'
+```
 *Respressofile with custom host requesting four ot ouf five resource categories*
 
 ⚠️ Before performing the next step, be sure to **close your Xcode project**.  
