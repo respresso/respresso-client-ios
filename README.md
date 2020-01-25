@@ -111,7 +111,7 @@ $ respresso update -strict-mode
 
 Real-time preview how the translations will look like in your mobile app or web. No need to wait for the next deployment.
 
-#### How to setting up
+#### How to setup
 
 1. Import 'RespressoLive' framework. It's automatically added to your project.
 2. Enable the live mode.
