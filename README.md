@@ -1,3 +1,32 @@
+# 🛑 Docs out-of-date notice! 🛑
+This documentation is not updated anymore. 
+All documentation of Respresso moved to https://respresso.io/docs.
+## ✔️ Up-to-date docs for iOS is here:
+### Get started with Respresso
+| Content                                          | Link                                                                         |
+| ------------------------------------------------ | -----------------------------------------------------------------------------|
+| Add Respresso to new or exiting iOS project      | https://respresso.io/docs/guides/ios-project-setup                           |
+| Get started with Respresso CLI (auto-sync)       | https://respresso.io/docs/get-started-with-respresso-sync                    |
+| Migrate from legacy CLI to the new CLI           | https://respresso.io/docs/docs/guides/migrate-from-legacy-ios-cli-and-objective-c-classes |
+
+### Learn more - Docs for iOS Devs
+| Content                                          | Link                                                                         |
+| ------------------------------------------------ | -----------------------------------------------------------------------------|
+| All about Respresso CLI setup in Xcode build    | https://respresso.io/docs/ios-xcode-resource-sync                             |
+| Respresso CLI reference (auto-sync)             | https://respresso.io/docs/respresso-cli-reference                             |
+| Respresso CLI config reference (auto-sync)      | https://respresso.io/docs/respresso-cli-config-reference                      |
+| Import existing resources from iOS project      | [Localization](https://respresso.io/docs/localization/import), [Image (raster or pdf)](https://respresso.io/docs/image/import), [Color](https://respresso.io/docs/color/import) |
+| Localization format - .strings                  | https://respresso.io/docs/localization/apple-ios-strings-format               |
+| Localization format - Swift helpers             | https://respresso.io/docs/localization/ios-swift-classes-format               |
+| Localization format - Objective-C helpers       | https://respresso.io/docs/localization/ios-objective-c-classes-format         |
+| Localization variables in Respresso             | https://respresso.io/docs/localization/variables                              |
+| Localization variable formatting                | https://respresso.io/docs/localization/variable-formatting                    |
+| Localization variable placeholders              | https://respresso.io/docs/localization/custom-variable-placeholders           |
+
+## Seriously, 🛑 stop 🛑 here and go to the [new docs](https://respresso.io/docs/guides/android-project-setup)!
+
+---
+
 [<div align="center"><img src="https://github.com/pontehu/respresso-client-ios/blob/master/images/header_ios.png" height="220" /></div>](https://respresso.io)  
 
 # Respresso iOS client [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Save%20development%20time%21%20Respresso%20automatically%20transforms%20and%20delivers%20your%20digital%20assets%20into%20your%20projects&url=https://respresso.io&via=respresso_io&hashtags=developer,tool,localization,image,resources,digital-assets,convert,automation)  
